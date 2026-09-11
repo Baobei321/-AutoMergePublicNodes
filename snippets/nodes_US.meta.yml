@@ -81,6 +81,35 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_1|1.2MB/s
+  network: ws
+  port: '443'
+  server: 69.46.46.80
+  servername: spiderpanel-production-6899.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: bca65ce5-3208-4211-a5f9-2f6abd4ae7c2
+  ws-opts:
+    headers:
+      Host: spiderpanel-production-6899.up.railway.app
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    path: /ws/bca65ce5-3208-4211-a5f9-2f6abd4ae7c2
+  xudp: true
+- name: 🇺🇸US_2|1.2MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130

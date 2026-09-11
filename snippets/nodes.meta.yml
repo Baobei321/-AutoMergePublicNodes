@@ -193,7 +193,7 @@ proxies:
   sni: hopp-germany-new.ddnsguru.com
   tls: false
   type: hysteria2
-- name: 咕咕
+- name: 🇷🇴RO_1|1.4MB/s
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 162.249.126.7
@@ -380,14 +380,6 @@ proxies:
   sni: musicclips.videolinks.ru
   tls: false
   type: hysteria2
-- name: 🇷🇺168476 | ⚡️Telegram = t.me/S...
-  password: 41edb44c8e
-  port: 11592
-  server: srv-17e124.21freedom.net
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
 - name: '@Begoo_VPN ²⁹⁰'
   obfs: salamander
   obfs-password: dzcb7hv6i2kx2zze
@@ -493,20 +485,19 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: 🛠️31@oneclickvpnkeys
+  password: BWAFlp8g53
+  port: 443
+  server: 72.56.102.31
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '@V2ray_confiig #1'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 15.223.122.197
   skip-cert-verify: true
   sni: t.me
-  tls: false
-  type: hysteria2
-- name: 🇬🇧168474 | ⚡️Telegram = t.me/S...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-uk-001.fastervpn.world
-  skip-cert-verify: true
-  sni: whatsapp.com
   tls: false
   type: hysteria2
 - name: 🔥3@oneclickvpnkeys
@@ -718,7 +709,7 @@ proxies:
   sni: ru1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: ✅ t.me/bigAVPN ایران آزاد 👑
+- name: '@filembad #2'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -795,16 +786,6 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '🏴‍☠️@FreakConfig #2'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: fr9p9ji70krwnup6
-  port: 52018
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   name: 'Telegram @mtmvpn #2'
@@ -829,7 +810,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇵🇱@FreakConfig
+- name: '@vmess_ir #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: fr9p9ji70krwnup6
@@ -952,42 +933,6 @@ proxies:
   port: 52067
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: 'dc-udp-🇦🇷 Argentina-Buenos Air... #1'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: mdq80x0xv9wt7520
-  port: 52001
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: dc-udp-🇯🇵 Japan-Tokyo
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: mdq80x0xv9wt7520
-  port: 52046
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: dc-udp-🇳🇱 Netherlands-Amsterda...
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: mdq80x0xv9wt7520
-  port: 52050
-  server: giftcard.gateway-stream.com
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
@@ -1196,7 +1141,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: chrome
-  name: 'dc-udp-🇦🇷 Argentina-Buenos Air... #2'
+  name: 'dc-udp-🇦🇷 Argentina-Buenos Air... #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: zvxywxoorgqk3fzb
@@ -1336,6 +1281,66 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_1|1.2MB/s
+  network: ws
+  port: '443'
+  server: 69.46.46.80
+  servername: spiderpanel-production-6899.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: bca65ce5-3208-4211-a5f9-2f6abd4ae7c2
+  ws-opts:
+    headers:
+      Host: spiderpanel-production-6899.up.railway.app
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    path: /ws/bca65ce5-3208-4211-a5f9-2f6abd4ae7c2
+  xudp: true
+- name: 🇺🇸US_2|1.2MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
+  udp: true
+- name: 🇪🇸ES_1|1.3MB/s
+  password: None
+  port: 443
+  server: 130.195.250.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇨🇭CH_1|1.5MB/s
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_1|1012KB/s
+  password: amazonskr05
+  port: '443'
+  server: 52.56.143.197
+  type: ss
+  udp: true
+- name: 🇯🇵JP_1|1.9MB/s
+  password: ''
+  port: '8094'
+  server: 110.80.25.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - name: NL_speednode_0004
   port: 9002
   server: 84.17.47.125
