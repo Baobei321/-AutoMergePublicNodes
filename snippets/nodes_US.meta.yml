@@ -7,20 +7,20 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #8'
-  network: ws
-  port: 443
-  server: 146.75.59.186
-  servername: community.fastly.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 58d2fb1c-7ae2-42c8-8c0d-a393603ebc9f
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-    path: /
+- name: 🇺🇸206713 | ⚡️Telegram = t.me/L...
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 179.253.82.19
+  sni: fl3.nexfile.net
+  tls: false
+  type: hysteria2
+- name: 🧿75@oneclickvpnkeys
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 179.253.82.33
+  sni: fl3.nexfile.net
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: '🇺🇸 美国 | USA #7'
   network: ws
@@ -64,7 +64,7 @@ proxies:
       Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
     path: /
 - client-fingerprint: firefox
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #7'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #5'
   port: 443
   server: us3.shtil.io
   servername: us3.shtil.io
@@ -83,11 +83,11 @@ proxies:
   port: 443
   server: 49.51.39.148
   type: ss
-- cipher: 2022-blake3-aes-256-gcm
-  name: 🇺🇸[www.v2nodes.com] ss-US-1613...
-  password: ZV9gr1G1kn+MtegpmGMVOqXbSUwnCHtaS/8vuccEKJU=:6P/mJmwaHFp5FDdB9l04qOY4pmYKFt/bq65iOCP+oBU=
-  port: 53799
-  server: 31.57.185.203
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸[www.v2nodes.com] ss-US-1612...
+  password: DZRy4Q3QH0jUGfKFl2jDCZ
+  port: 28960
+  server: 138.197.89.234
   type: ss
 - name: '🇺🇸[www.v2nodes.com] trojan-US-... #1'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
@@ -114,30 +114,19 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: 美国3|@ripaojiedian
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 19466
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: 美国1|@ripaojiedian
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 49049
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: fe-static.deepseek.com
-  type: trojan
-- name: 美国2|@ripaojiedian
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 17285
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: VideoRenderer
+  name: 🇷🇺 俄罗斯 | RUS 2
+  network: grpc
+  port: 443
+  server: 89.169.47.96
+  servername: renderer-bridge-2-129.mirra.now
+  tls: true
+  type: vless
+  udp: true
+  uuid: 27653b37-603c-4c90-b1f5-25c4d23f8932
 - alpn:
   - h2
   client-fingerprint: firefox

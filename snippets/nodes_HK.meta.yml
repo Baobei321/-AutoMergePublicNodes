@@ -20,20 +20,6 @@ proxies:
     headers:
       Host: 38.76.180.144
     path: /vless-ws
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇭🇰[www.v2nodes.com] vless-HK-1... #3'
-  network: ws
-  port: 443
-  server: px2.5ibtc.cn
-  servername: px2.5ibtc.cn
-  tls: true
-  type: vless
-  uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
-  ws-opts:
-    headers:
-      Host: px2.5ibtc.cn
-    path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
 - cipher: 2022-blake3-aes-128-gcm
   name: 🇭🇰[www.v2nodes.com] ss-HK-1614...
   password: +SpI6Aj5R5Tex6qKfWF3Zw==
@@ -46,46 +32,6 @@ proxies:
   server: hik160.pacemakere.com
   skip-cert-verify: true
   sni: hik160.pacemakere.com
-  type: trojan
-- name: 香港2|@ripaojiedian
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 44837
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: 香港1|@ripaojiedian
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 14699
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: fe-static.deepseek.com
-  type: trojan
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 41495
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: 香港3|@ripaojiedian
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 34926
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: wximg.qq.com
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 43638
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
   type: trojan
 - alpn:
   - ''
