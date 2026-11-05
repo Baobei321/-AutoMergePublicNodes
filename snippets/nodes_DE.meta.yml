@@ -69,6 +69,64 @@ proxies:
   port: 443
   server: 193.108.119.78
   type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  name: '🇩🇪 德国 | DEU #2'
+  network: xhttp
+  port: 443
+  server: 193.160.208.240
+  servername: 193.160.208.240
+  tls: true
+  type: vless
+  udp: true
+  uuid: c04522c4-3d53-4eab-b5b5-25385d5f11b1
+  xhttp-opts:
+    mode: packet-up
+    path: /assets/twru01/
+- client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #3'
+  network: xhttp
+  port: 443
+  server: 193.160.208.240
+  servername: 193.160.208.240
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+  xhttp-opts:
+    mode: auto
+    path: /assets/twru01/
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #4'
+  network: xhttp
+  port: 443
+  server: 78.17.39.129
+  servername: 78.17.39.129
+  tls: true
+  type: vless
+  uuid: c04522c4-3d53-4eab-b5b5-25385d5f11b1
+  xhttp-opts:
+    host: 78.17.39.129
+    mode: packet-up
+    path: /assets/finvip02/
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 德国 | DEU 5
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 500
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

@@ -32,3 +32,16 @@ proxies:
   server: connect-se.mimowhat.online
   sni: connect-se.mimowhat.online
   type: trojan
+- client-fingerprint: chrome
+  name: '🇸🇪 瑞典 | SWE #1'
+  network: xhttp
+  port: 4443
+  server: swo2.nexfile.net
+  servername: swo2.nexfile.net
+  tls: true
+  type: vless
+  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  xhttp-opts:
+    host: swo2.nexfile.net
+    mode: auto
+    path: /api/v1/sync/
