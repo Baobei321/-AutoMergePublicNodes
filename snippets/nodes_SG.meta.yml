@@ -8,7 +8,7 @@ proxies:
   type: vless
   uuid: bcdb425f-80bc-4ec8-92a5-8edf53639c01
 - client-fingerprint: chrome
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #4'
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #5'
   network: ws
   port: 2096
   server: 139.162.27.96
@@ -42,10 +42,16 @@ proxies:
   name: '🇸🇬[www.v2nodes.com] ss-SG-1615... #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 149.88.107.74
+  server: 149.88.106.74
   type: ss
 - cipher: aes-256-gcm
   name: '🇸🇬[www.v2nodes.com] ss-SG-1615... #2'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 149.88.107.74
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇸🇬[www.v2nodes.com] ss-SG-1615... #3'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 149.88.107.47
@@ -63,3 +69,20 @@ proxies:
   server: 149.28.130.108
   sni: searchcreativejobsandshowcaseyourartistictalents.com
   type: trojan
+- name: 🇸🇬SG_1|1.9MB/s
+  password: '!!str 8888'
+  port: 1080
+  server: 47.236.168.243
+  type: socks5
+  username: '8888'
+- name: 🇸🇬SG_2|1.1MB/s
+  password: None
+  port: 9090
+  server: 128.199.254.13
+  skip-cert-verify: true
+  type: http
+- name: 🇸🇬SG_3|2.1MB/s
+  port: 9090
+  server: 146.190.80.158
+  skip-cert-verify: true
+  type: http
