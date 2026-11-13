@@ -3,22 +3,20 @@ proxies:
   - h2
   client-fingerprint: ios
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: mobile.api.Event
-  name: 🇷🇺 俄罗斯 | RUS 4
+  name: 🇷🇺[www.v2nodes.com] vless-RU-1...
   network: grpc
   port: 443
   server: vps2.nemnogogo.com
   servername: vps2.nemnogogo.com
   tls: true
   type: vless
-  udp: true
   uuid: 95f85937-7b95-45c4-8d69-95da6a978569
 - client-fingerprint: firefox
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: mobile.api.Event
-  name: 🇷🇺 俄罗斯 | RUS 3
+  name: 🇷🇺 俄罗斯 | RUS
   network: grpc
   port: 443
   server: 201.24.116.192
