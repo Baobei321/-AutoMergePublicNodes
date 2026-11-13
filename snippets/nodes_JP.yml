@@ -19,12 +19,6 @@ proxies:
   server: 149.22.87.204
   type: ss
 - cipher: aes-128-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-1291...
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
-  type: ss
-- cipher: aes-128-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-9223...
   password: shadowsocks
   port: 443
@@ -41,7 +35,6 @@ proxies:
   server: 13.231.100.94
   type: ss
   udp: true
-  x-toolall-mihomo: true
 - name: '🇳🇬 尼日利亚 | NGA #1'
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20051

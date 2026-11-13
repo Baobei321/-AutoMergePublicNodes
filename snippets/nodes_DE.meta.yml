@@ -15,7 +15,6 @@ proxies:
     path: /api/boards/live
 - client-fingerprint: chrome
   name: '🇵🇱[www.v2nodes.com] vless-PL-1... #2'
-  network: tcp
   port: 2087
   server: 2.26.6.1
   servername: 2.26.6.1
@@ -23,39 +22,17 @@ proxies:
   tls: true
   type: vless
   uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
-  network: ws
-  port: 443
-  server: 188.225.37.175
-  servername: cryptoventura.online
-  tls: true
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #7'
+  port: 49313
+  server: 159.195.207.238
+  tls: false
   type: vless
-  uuid: 4b50270b-5caf-4c34-b3da-17b4525604a6
-  ws-opts:
-    headers:
-      Host: cryptoventura.online
-    path: /api/de3/live
-- client-fingerprint: firefox
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
-  network: ws
-  port: 8443
-  server: 188.114.99.157
-  servername: moz.ar-marz.fun
-  tls: true
-  type: vless
-  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
-  ws-opts:
-    headers:
-      Host: moz.ar-marz.fun
-    path: /man
+  uuid: 855c7aaa-e7d6-463e-971e-d36032744428
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: a9w9wmko0k2od14hv8v
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #11'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
   network: grpc
   port: 443
   server: 5.83.129.236
@@ -87,41 +64,138 @@ proxies:
   port: 19999
   server: 23.157.88.43
   type: ss
+- cipher: aes-256-gcm
+  name: '🇩🇪[www.v2nodes.com] ss-DE-1615... #2'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.119.2
+  type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: '🇩🇪 德国 | DEU #7'
+  network: http
+  port: 52080
+  server: 23.165.200.150
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
+- encryption: none
+  name: 🇩🇪DE_2|1.3MB/s
+  network: ws
+  port: 8880
+  server: snapp.ir
+  type: vless
+  udp: true
+  uuid: 0b7730eb-042f-4389-a430-d6909466a46a
+  ws-opts:
+    headers:
+      Host: one.devenat.ir
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+    path: /
+  xudp: true
+- name: 🇩🇪DE_3|2.6MB/s
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|1.5MB/s|R002-260618
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇩🇪DE_5|2.6MB/s
+  password: 'null'
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇩🇪DE_6|1.2MB/s|R002-260618
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇩🇪DE_7|3.6MB/s
+  password: 'null'
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  sni: 158.173.154.4
+  tls: true
+  type: http
+  username: 'null'
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇩🇪DE_8|1.0MB/s
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  port: 443
+  server: 8.211.38.49
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_9|1.8MB/s
+  password: q3dqVZJi_Ugj6KLm5TOd47B69EkYVM-A
+  port: 2050
+  server: p1tun2.greewebservices.ir
+  type: ss
+  udp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_1|1.0MB/s
-  network: xhttp
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_10|3.4MB/s
+  network: tcp
   port: 443
-  server: static.nlomasterpanel.ru
-  servername: static.nlomasterpanel.ru
+  server: static.99.251.225.46.clients.your-server.de
+  servername: static.174.251.107.91.clients.your-server.de
   tls: true
   type: vless
   udp: true
-  uuid: 981e728f-d403-4fef-a1ff-6ba9ebe0e702
-  xhttp-opts:
-    host: static.nlomasterpanel.ru
-    mode: packet-up
-    path: /api/v1/parts
-    reuse-settings:
-      c-max-reuse-times: '0'
-      h-keep-alive-period: 0
-      h-max-request-times: 600-900
-      h-max-reusable-secs: 1800-3000
-      max-concurrency: '0'
-      max-connections: '3'
-    sc-min-posts-interval-ms: 150
-    uplink-data-key: X-Data
-    uplink-data-placement: header
-    uplink-http-method: GET
-    x-padding-header: X-Client-Data
-    x-padding-key: _dc
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
+  uuid: 310bf38e-fffc-4847-8e24-d3b3e4609e34
   xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_11|2.4MB/s
+  network: tcp
+  port: 8443
+  server: 49.12.68.40
+  servername: static.40.68.12.49.clients.your-server.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4128967-9ba4-445d-a7aa-d38b4fed547a
+  xudp: true
+- name: 🇩🇪DE_12|2.2MB/s
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
 - alpn:
   - h2
   client-fingerprint: firefox
@@ -174,24 +248,6 @@ proxies:
   sni: de.gosthk.site
   type: anytls
   udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-    method: GET
-    path:
-    - /QQqun-737805443
-  name: '🇩🇪 德国 | DEU #7'
-  network: http
-  port: 52080
-  server: 23.165.200.150
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
 - alpn:
   - h3
   - h2
