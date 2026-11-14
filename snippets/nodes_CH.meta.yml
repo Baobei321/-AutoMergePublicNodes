@@ -29,21 +29,24 @@ proxies:
   port: 443
   server: 208.69.78.158
   type: trojan
-- name: 🇨🇭CH_1|2.7MB/s|R002-260618
-  port: 9443
-  server: 37.120.213.210
+- name: 🇨🇭CH_1|1.3MB/s
+  port: 443
+  server: 31.7.62.50
   skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇨🇭CH_2|2.9MB/s|K001-260618
-  port: 9443
-  server: 149.88.27.33
-  skip-cert-verify: true
-  sub_tag: K001-260618
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇨🇭 瑞士 | CHE #2'
+  network: tcp
+  port: 443
+  server: 194.87.109.106
+  servername: currant.asynchronous.site
   tls: true
-  type: http
+  type: vless
   udp: true
-  x-toolall-mihomo: true
+  uuid: d9274255-edf4-4944-bc62-6ef35cd2de40
+  ws-opts:
+    path: /

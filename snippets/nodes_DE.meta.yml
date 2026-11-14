@@ -1,13 +1,24 @@
 proxies:
+- name: 🇩🇪[www.v2nodes.com] vless-DE-1...
+  port: 3939
+  server: zibanabz.jonsonvip.ir
+  tls: false
+  type: vless
+  uuid: 3c152dce-5887-486c-9f0f-693ca271f2e6
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+  port: 39653
+  server: online.shop.ir.eeso.cc
+  tls: true
+  type: vless
+  uuid: baded307-189c-4ffc-a271-9acdab51a324
 - client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #2'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #6'
   network: ws
   port: 443
   server: 188.225.37.43
   servername: torvani.cyou
   tls: true
   type: vless
-  udp: true
   uuid: 4cabcd59-a405-4c00-96f5-03507e1e28fa
   ws-opts:
     headers:
@@ -15,6 +26,7 @@ proxies:
     path: /api/boards/live
 - client-fingerprint: chrome
   name: '🇵🇱[www.v2nodes.com] vless-PL-1... #2'
+  network: tcp
   port: 2087
   server: 2.26.6.1
   servername: 2.26.6.1
@@ -22,17 +34,24 @@ proxies:
   tls: true
   type: vless
   uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #7'
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
   port: 49313
   server: 159.195.207.238
   tls: false
   type: vless
   uuid: 855c7aaa-e7d6-463e-971e-d36032744428
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #10'
+  port: 8443
+  server: 103.31.4.75
+  tls: false
+  type: vless
+  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
+  ws-opts:
+    path: /man
 - client-fingerprint: chrome
-  encryption: none
   grpc-opts:
     grpc-service-name: a9w9wmko0k2od14hv8v
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #12'
   network: grpc
   port: 443
   server: 5.83.129.236
@@ -40,12 +59,6 @@ proxies:
   tls: true
   type: vless
   uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪[www.v2nodes.com] ss-DE-1621...
-  password: zZMNTGpPl38ASlbI1EKOBJ
-  port: 46303
-  server: 135.220.178.46
-  type: ss
 - cipher: aes-256-gcm
   name: 🇩🇪[www.v2nodes.com] ss-DE-1616...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -64,155 +77,23 @@ proxies:
   port: 19999
   server: 23.157.88.43
   type: ss
-- cipher: aes-256-gcm
-  name: '🇩🇪[www.v2nodes.com] ss-DE-1615... #2'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.108.119.2
-  type: ss
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-    method: GET
-    path:
-    - /QQqun-737805443
-  name: '🇩🇪 德国 | DEU #7'
-  network: http
-  port: 52080
-  server: 23.165.200.150
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
-- encryption: none
-  name: 🇩🇪DE_2|1.3MB/s
-  network: ws
-  port: 8880
-  server: snapp.ir
-  type: vless
-  udp: true
-  uuid: 0b7730eb-042f-4389-a430-d6909466a46a
-  ws-opts:
-    headers:
-      Host: one.devenat.ir
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇩🇪DE_3|2.6MB/s
+- name: 🇩🇪DE_1|3.0MB/s
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_4|1.5MB/s|R002-260618
-  password: None
+- name: 🇩🇪DE_2|2.9MB/s|R002-260618
   port: 443
-  server: 87.249.132.97
+  server: 172.64.68.89
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇩🇪DE_5|2.6MB/s
-  password: 'null'
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇩🇪DE_6|1.2MB/s|R002-260618
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_7|3.6MB/s
-  password: 'null'
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  sni: 158.173.154.4
-  tls: true
-  type: http
-  username: 'null'
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇩🇪DE_8|1.0MB/s
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  port: 443
-  server: 8.211.38.49
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_9|1.8MB/s
-  password: q3dqVZJi_Ugj6KLm5TOd47B69EkYVM-A
-  port: 2050
-  server: p1tun2.greewebservices.ir
-  type: ss
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_10|3.4MB/s
-  network: tcp
-  port: 443
-  server: static.99.251.225.46.clients.your-server.de
-  servername: static.174.251.107.91.clients.your-server.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: 310bf38e-fffc-4847-8e24-d3b3e4609e34
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_11|2.4MB/s
-  network: tcp
-  port: 8443
-  server: 49.12.68.40
-  servername: static.40.68.12.49.clients.your-server.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: c4128967-9ba4-445d-a7aa-d38b4fed547a
-  xudp: true
-- name: 🇩🇪DE_12|2.2MB/s
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: glush.de3.v1
-  name: 🇩🇪 德国 | DEU
-  network: grpc
-  port: 443
-  server: luminexorizon.ink
-  servername: luminexorizon.ink
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4b50270b-5caf-4c34-b3da-17b4525604a6
 - client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #3'
+  name: '🇩🇪 德国 | DEU #2'
   network: xhttp
   port: 443
   server: 193.160.208.240
@@ -225,54 +106,98 @@ proxies:
     mode: auto
     path: /assets/twru01/
 - alpn:
+  - h2
   - http/1.1
-  client-fingerprint: edge
-  name: '🇩🇪 德国 | DEU #4'
-  network: ws
-  port: 443
-  server: ws3.falmero.store
-  servername: falmero.store
+  client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #3'
+  network: xhttp
+  port: 2053
+  server: check-host.net
+  servername: n8.hyby.ir
   tls: true
   type: vless
   udp: true
-  uuid: 820fa845-a1eb-4a83-b613-e6714cea8a1a
-  ws-opts:
-    headers:
-      Host: falmero.store
-    path: /api/de1/stream
+  uuid: d133dd1c-3084-46c3-ba6e-aa3597c43cc1
+  xhttp-opts:
+    host: n8.hyby.ir
+    mode: auto
+    path: /
 - name: 🇩🇪 德国 | DEU 6
-  password: 9b24e5d0-62be-41df-b967-9b670cf90ff8
+  password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
+  port: 23201
+  server: 45.192.198.230
+  skip-cert-verify: true
+  sni: buylite.music.apple.com
+  type: anytls
+  udp: true
+- name: 🇩🇪 德国 | DEU 7
+  password: 97e926e8-0fbf-4af5-89de-4a4c8708a12c
   port: 2086
   server: forwarded.frnhk.xyz
   skip-cert-verify: true
   sni: de.gosthk.site
   type: anytls
   udp: true
+- name: 🇩🇪 德国 | DEU 8
+  password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
+  port: 23200
+  server: 45.192.198.230
+  skip-cert-verify: true
+  sni: buylite.music.apple.com
+  type: anytls
+  udp: true
 - alpn:
-  - h3
   - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.Fy1WuRvH1VNIEda4AC61jAhcBFLzuYHcwbUO7mNjxwY
-  name: '🇩🇪 德国 | DEU #8'
-  network: xhttp
-  port: 2087
-  server: www.hyby.ir
-  servername: www.hyby.ir
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: glush.de3.v1
+  name: 🇩🇪 德国 | DEU 9
+  network: grpc
+  port: 443
+  server: luminexorizon.ink
+  servername: luminexorizon.ink
   tls: true
   type: vless
   udp: true
-  uuid: b6da1396-cfa7-421c-92b6-8bc947f0d308
-  xhttp-opts:
-    host: www.hyby.ir
-    mode: auto
-    path: /
+  uuid: 4b50270b-5caf-4c34-b3da-17b4525604a6
+- alpn:
+  - h2
+  - h3
+  - http/1.1
+  name: 🇩🇪 德国 | DEU 10
+  network: ws
+  password: X00HagvwL8gQXNDAnsxsN8dv1_VdneEo
+  port: 21443
+  server: 5.59.204.26
+  skip-cert-verify: true
+  sni: fi1.nebulaguard.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: fi1.nebulaguard.org
+    path: /trojan/
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #8'
+  network: ws
+  port: 443
+  server: 191.217.252.31
+  servername: media.saari.lalibobi.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7d718630-7a1a-4af8-9332-aa0610634e8a
+  ws-opts:
+    path: /live/showroom
 - alpn:
   - h2
   client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: ''
-  name: '🇩🇪 德国 | DEU #1'
+  name: '🇩🇪 德国 | DEU #6'
   network: grpc
   port: 443
   server: luminexorizon.ink
@@ -280,6 +205,13 @@ proxies:
   tls: true
   type: vless
   uuid: 4b50270b-5caf-4c34-b3da-17b4525604a6
+- name: '🇩🇪 德国 | DEU #7'
+  password: X00HagvwL8gQXNDAnsxsN8dv1_VdneEo
+  port: 21443
+  server: 5.59.204.26
+  skip-cert-verify: true
+  sni: fi1.nebulaguard.org
+  type: trojan
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
