@@ -9,6 +9,26 @@ proxies:
   sni: psstatic.cdn.bcebos.com
   tls: false
   type: hysteria2
+- name: 🇺🇸 27@exclavevpn
+  password: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
+  port: 443
+  server: 135.126.21.106
+  sni: de1-balance.rezproffx.ru
+  tls: false
+  type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_8|4.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
+  port: 443
+  server: 135.126.21.107
+  skip-cert-verify: false
+  sni: de2-balance.rezproffx.ru
+  tls: false
+  type: hysteria2
+  up: ''
 - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -56,7 +76,13 @@ proxies:
     headers:
       Host: us5-cdn.xyn.lgbt
     path: /yn-lax-fb366a66e8526ebc4a311464
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #4'
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸[www.v2nodes.com] ss-US-1620...
+  password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
+  port: 42878
+  server: 23.230.52.119
+  type: ss
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #6'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 167.88.61.52
@@ -65,29 +91,126 @@ proxies:
 - name: '🇺🇸[www.v2nodes.com] trojan-US-... #7'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 66.163.112.13
-  sni: blog.unlockyourfuturefindyourperfectcareer.com
+  server: 170.101.101.131
   type: trojan
 - name: '🇺🇸[www.v2nodes.com] trojan-US-... #8'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 66.163.122.25
-  sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
+  server: 169.197.140.245
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #9'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+- name: NN_speednode_0023
+  password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: 66.163.114.106
+  server: usgp1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 🇺🇸US_2|2.5MB/s
+  port: 9443
+  server: 38.95.111.226
   skip-cert-verify: true
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
-  type: trojan
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_3|2.5MB/s
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_4|3.0MB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- name: 🇺🇸US_5|2.7MB/s
+  port: 9443
+  server: 198.44.138.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_6|2.9MB/s
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_7|1.3MB/s
+  port: 18080
+  server: 52.128.238.98
+  skip-cert-verify: true
+  type: http
+- name: 🇺🇸US_8|3.4MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_9|2.9MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_10|1.4MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  sni: 138.199.35.219
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_11|1.0MB/s
+  password: ppyefe3k
+  port: 62000
+  server: 23.230.200.176
+  skip-cert-verify: true
+  type: socks5
+  username: u1f0cijj
+- name: 🇺🇸US_12|2.3MB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- name: 🇺🇸US_13|2.3MB/s
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: mobile.api.Event
+  name: 🇷🇺 俄罗斯 | RUS
+  network: grpc
+  port: 443
+  server: 201.51.12.98
+  servername: vps3.nemnogogo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
 - alpn:
   - h2
   client-fingerprint: firefox
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: mobile.api.Event
-  name: 🇷🇺 俄罗斯 | RUS
+  name: 🇷🇺 俄罗斯 | RUS 3
   network: grpc
   port: 443
   server: vps3.nemnogogo.com
@@ -96,23 +219,39 @@ proxies:
   type: vless
   udp: true
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: mobile.api.Event
-  name: 🇷🇺 俄罗斯 | RUS 2
-  network: grpc
+- alpn:
+  - http/1.1
+  client-fingerprint: unsafe
+  name: '🇺🇸 美国 | USA #1'
+  network: ws
   port: 443
-  server: 201.24.116.192
-  servername: vps3.nemnogogo.com
+  server: 188.114.98.0
+  servername: x.m-90.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  uuid: eee8ae65-bc48-438f-a606-a96f10bfb3b8
+  ws-opts:
+    headers:
+      Host: x.m-90.xyz
+    path: t.me/TEAMNETGRATISCOL
+- client-fingerprint: firefox
+  name: '🇺🇸 美国 | USA #2'
+  network: xhttp
+  port: 443
+  server: 196.198.111.146
+  servername: cab-6b07048f.ferrin.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+  xhttp-opts:
+    mode: auto
+    path: /
 - alpn:
   - h2
   client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #1'
+  name: '🇺🇸 美国 | USA #3'
   network: xhttp
   port: 443
   server: 23.237.202.252
@@ -124,61 +263,23 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #2'
-  network: ws
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: ''
+  name: '🇷🇺 俄罗斯 | RUS #1'
+  network: grpc
   port: 443
-  server: wryly-messiest.video-streams.org
-  servername: wryly-messiest.video-streams.org
+  server: 201.51.12.98
+  servername: vps3.nemnogogo.com
   tls: true
   type: vless
-  udp: true
-  uuid: 0ca80064-0265-44ec-aaec-a8f7d799f293
-  ws-opts:
-    headers:
-      Host: wryly-messiest.video-streams.org
-    path: /ws
-- cipher: chacha20-ietf-poly1305
-  name: '🇺🇸 美国 | USA #3'
-  password: aqfNMqGyxRTHwXOy
-  port: 28172
-  server: e.node001.download
-  type: ss
-  udp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #5'
-  network: xhttp
-  port: 443
-  server: 3.219.184.102
-  servername: fortuna.masynbazar.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a5b1d16b-719b-4bd6-9d7b-fe6d84607da9
-  xhttp-opts:
-    path: /
-- client-fingerprint: safari
-  name: '🇺🇸 美国 | USA #6'
-  network: ws
-  port: 443
-  server: cos-cdn-g.alicdn.win
-  servername: mms-statlc-ig7dmg-e.oppocc.men
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3bb77d95-fc42-4fa5-9865-1a42dd4d9ff6
-  ws-opts:
-    headers:
-      Host: mms-static-origin-e.oppocc.men
-    path: /newlogin/login.do
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
 - alpn:
   - h2
   client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: ''
-  name: '🇷🇺 俄罗斯 | RUS #1'
+  name: '🇷🇺 俄罗斯 | RUS #3'
   network: grpc
   port: 443
   server: vps3.nemnogogo.com
@@ -186,21 +287,3 @@ proxies:
   tls: true
   type: vless
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: ''
-  name: '🇷🇺 俄罗斯 | RUS #2'
-  network: grpc
-  port: 443
-  server: 201.24.116.192
-  servername: vps3.nemnogogo.com
-  tls: true
-  type: vless
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-- name: US_speednode_0027
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
