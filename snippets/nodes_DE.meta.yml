@@ -1,4 +1,28 @@
 proxies:
+- name: 🇩🇪232898 | ⚡️Telegram = t.me/L...
+  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
+  port: 443
+  server: 144.31.148.87
+  skip-cert-verify: true
+  sni: replay.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
+- name: 🇩🇪232897 | ⚡️Telegram = t.me/L...
+  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
+  port: 443
+  server: replay.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: replay.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
+- name: 🇩🇪232896 | ⚡️Telegram = t.me/L...
+  password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o
+  port: 443
+  server: 89.125.156.80
+  skip-cert-verify: true
+  sni: pixelcast.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -43,23 +67,14 @@ proxies:
     headers:
       Host: lagoon.gerqix.online
     path: /api/de5/stream
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #4'
-  network: ws
-  port: 443
-  server: mintleaf.moltex.click
-  servername: mintleaf.moltex.click
-  tls: true
-  type: vless
-  uuid: 83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e
-  ws-opts:
-    headers:
-      Host: mintleaf.moltex.click
-    path: /api/de4/stream
 - cipher: 2022-blake3-chacha20-poly1305
-  name: '🇩🇪[www.v2nodes.com] ss-DE-1624... #1'
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1624...
+  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
+  port: 443
+  server: 18.135.5.220
+  type: ss
+- cipher: 2022-blake3-chacha20-poly1305
+  name: '🇩🇪[www.v2nodes.com] ss-DE-1624... #2'
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   port: 443
   server: 47.254.167.157
@@ -70,19 +85,17 @@ proxies:
   port: 443
   server: 8.211.56.98
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1592...
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  port: 8388
+  server: 57.129.113.16
+  type: ss
 - name: 🏳[www.v2nodes.com] trojan-
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.78
   type: trojan
-- name: DE_speednode_0003
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: US_speednode_0027
   port: 443
   server: 172.64.69.89
@@ -92,7 +105,19 @@ proxies:
   udp: true
 - down: ''
   fingerprint: ''
-  name: 🇩🇪DE_5|3.9MB/s
+  name: 🇩🇪DE_2|1.6MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  port: 13337
+  server: 128.254.186.163
+  skip-cert-verify: false
+  sni: mother-earth.fyi
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_3|1.5MB/s
   obfs: ''
   obfs-password: ''
   password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
@@ -104,7 +129,7 @@ proxies:
   up: ''
 - down: ''
   fingerprint: ''
-  name: 🇩🇪DE_6|4.1MB/s
+  name: 🇩🇪DE_4|2.1MB/s
   obfs: ''
   obfs-password: ''
   password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
@@ -114,102 +139,61 @@ proxies:
   sni: 127.0.0.1
   type: hysteria2
   up: ''
-- client-fingerprint: chrome
-  name: 🇩🇪DE_7|2.5MB/s
-  network: ws
-  port: 2083
-  server: 172.67.67.89
-  servername: edge.yzkvm.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  ws-opts:
-    headers:
-      Host: edge.yzkvm.top
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_8|3.7MB/s
-  network: ws
-  port: 2083
-  server: 172.67.74.177
-  servername: edge.yzkvm.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  ws-opts:
-    headers:
-      Host: edge.yzkvm.top
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_9|1.4MB/s
-  network: ws
-  port: 8443
-  server: 104.21.62.113
-  servername: cdn.memegift.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: cbfdab46-e183-4cc3-bab9-df954c8c601e
-  ws-opts:
-    headers:
-      Host: cdn.memegift.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /vless-ws
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_10|2.4MB/s
-  network: ws
-  port: 443
-  server: 91.199.147.41
-  servername: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d945644-69ab-47e0-98b3-d43a6313135d
-  ws-opts:
-    headers:
-      Host: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /vl/SaXqikbSPA3ImtmZKAFin?ed=2560fp=chrome
-  xudp: true
-- name: 🇩🇪DE_11|3.1MB/s
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #1'
-  network: xhttp
-  port: 443
-  server: copperplate.gerqix.online
-  servername: copperplate.gerqix.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 749b1c56-e658-4bf5-94bd-5c3286a4aed1
-  xhttp-opts:
-    host: copperplate.gerqix.online
-    mode: auto
-    path: /api/de6/sync
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: firefox
   name: '🇩🇪 德国 | DEU #2'
+  network: xhttp
+  port: 443
+  server: sunfield.moltex.click
+  servername: fennel.moltex.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 749b1c56-e658-4bf5-94bd-5c3286a4aed1
+  xhttp-opts:
+    host: sunfield.moltex.click
+    mode: auto
+    path: /api/de1/sync
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #3'
+  network: ws
+  port: 443
+  server: bookend.filnex.baby
+  servername: ferncrest.gerqix.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 749b1c56-e658-4bf5-94bd-5c3286a4aed1
+  ws-opts:
+    headers:
+      Host: bookend.filnex.baby
+    path: /api/de1/stream
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #5'
+  network: xhttp
+  port: 443
+  server: pigment.merlano.monster
+  servername: fieldmark.merlano.monster
+  tls: true
+  type: vless
+  udp: true
+  uuid: 749b1c56-e658-4bf5-94bd-5c3286a4aed1
+  xhttp-opts:
+    host: pigment.merlano.monster
+    mode: auto
+    path: /api/de2/sync
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #6'
   network: xhttp
   port: 443
   server: prairie.moltex.click
@@ -224,31 +208,146 @@ proxies:
     path: /api/de2/sync
 - alpn:
   - h2
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: glush.de5.v1
+  name: 🇩🇪 德国 | DEU 7
+  network: grpc
+  port: 443
+  server: cobblestone.merlano.monster
+  servername: cobblestone.merlano.monster
+  tls: true
+  type: vless
+  udp: true
+  uuid: 749b1c56-e658-4bf5-94bd-5c3286a4aed1
+- encryption: mlkem768x25519plus.native.0rtt.7cEi3EYubZPwXl754zAXJkMQRhE95FMPVVhP8613QEA
+  name: '🇩🇪 德国 | DEU #8'
+  network: ws
+  port: 2052
+  server: quirivoo.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: dc780059-8b89-42d1-94eb-1c1d1bbbdd2f
+  ws-opts:
+    headers:
+      Host: quirivoo.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 9
+  port: 2080
+  server: Ir.wbzo.ir
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b7e3e8af-d1ca-45da-a95f-8b9ad77398b1
+- alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #5'
+  name: '🇩🇪 德国 | DEU #10'
+  network: ws
+  port: 443
+  server: woodgrain.filnex.baby
+  servername: larchbank.elvano.website
+  tls: true
+  type: vless
+  udp: true
+  uuid: 749b1c56-e658-4bf5-94bd-5c3286a4aed1
+  ws-opts:
+    headers:
+      Host: woodgrain.filnex.baby
+    path: /api/de2/stream
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #11'
+  network: tcp
+  port: 2082
+  server: ci.cloudof1.ir
+  servername: ci.cloudof1.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: b1758b10-8da1-4791-a1b3-44a77deea1ed
+  ws-opts:
+    headers:
+      Host: ci.cloudof1.ir
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #12'
   network: xhttp
   port: 443
-  server: sunfield.moltex.click
-  servername: fennel.moltex.click
+  server: copperplate.gerqix.online
+  servername: copperplate.gerqix.online
   tls: true
   type: vless
   udp: true
   uuid: 749b1c56-e658-4bf5-94bd-5c3286a4aed1
   xhttp-opts:
-    host: sunfield.moltex.click
+    host: copperplate.gerqix.online
     mode: auto
-    path: /api/de1/sync
-- encryption: mlkem768x25519plus.native.0rtt.l4vL8o_tMDEuI19vLDJYXFJOvYodTEgF6uK6gqjsDVw
-  name: '🇩🇪 德国 | DEU #6'
+    path: /api/de6/sync
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #15'
   network: tcp
-  port: 1289
-  server: alsu.deev-guard.ir
-  tls: false
+  port: 443
+  server: ns2.irts.lol
+  servername: ns2.irts.lol
+  tls: true
   type: vless
   udp: true
-  uuid: d1ec39e3-ad7b-4b65-9f65-813696f9a04e
+  uuid: ff1906a5-a446-44e4-8e72-4e2d61775fa0
   ws-opts:
     headers:
-      Host: alsu.deev-guard.ir
+      Host: ns2.irts.lol
     path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #16'
+  network: ws
+  port: 443
+  server: sienna.merlano.monster
+  servername: sienna.merlano.monster
+  tls: true
+  type: vless
+  udp: true
+  uuid: 749b1c56-e658-4bf5-94bd-5c3286a4aed1
+  ws-opts:
+    headers:
+      Host: sienna.merlano.monster
+    path: /api/de4/stream
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: ''
+  name: '🇩🇪 德国 | DEU #7'
+  network: grpc
+  port: 443
+  server: cobblestone.merlano.monster
+  servername: cobblestone.merlano.monster
+  tls: true
+  type: vless
+  uuid: 749b1c56-e658-4bf5-94bd-5c3286a4aed1
+- alterId: 0
+  cipher: auto
+  name: '🇩🇪 德国 | DEU #9'
+  network: tcp
+  port: 2080
+  server: Ir.wbzo.ir
+  tls: false
+  type: vmess
+  uuid: b7e3e8af-d1ca-45da-a95f-8b9ad77398b1
+- name: DE_speednode_0003
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
