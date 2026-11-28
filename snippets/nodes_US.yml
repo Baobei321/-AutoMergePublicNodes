@@ -7,7 +7,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '🇺🇸 美国 | USA #4'
+  name: '🇺🇸 美国 | USA #5'
   network: ws
   port: 16648
   server: fctwi.xiaoyan.io
