@@ -7,7 +7,20 @@ proxies:
   sni: vpn-fr-001.fastervpn.world
   tls: false
   type: hysteria2
-- name: 🇫🇷[www.v2nodes.com] vless-FR-1...
+- client-fingerprint: chrome
+  name: 🇫🇷[www.v2nodes.com] vless-FR-1...
+  network: ws
+  port: 443
+  server: ipfast.kingmna.com
+  servername: cdn.akamai.steamstatic.com
+  tls: true
+  type: vless
+  uuid: c6b0a7f0-4a4e-47aa-975a-35988278ab85
+  ws-opts:
+    headers:
+      Host: fraboijji.global.ssl.fastly.net.
+    path: /
+- name: '🇫🇷[www.v2nodes.com] vless-FR-1... #1'
   network: ws
   port: 80
   server: ov-france1.09vpn.com
@@ -19,7 +32,7 @@ proxies:
     headers:
       Host: ov-france1.09vpn.com
     path: /vless/
-- name: '🇫🇷[www.v2nodes.com] vless-FR-1... #1'
+- name: '🇫🇷[www.v2nodes.com] vless-FR-1... #2'
   port: 23576
   server: 62.210.91.2
   tls: false
@@ -61,6 +74,68 @@ proxies:
   port: 19999
   server: 167.17.64.22
   type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_1|1.9MB/s
+  network: xhttp
+  port: 443
+  server: 89.44.80.204
+  servername: newmama.baklajann.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
+  xhttp-opts:
+    host: newmama.baklajann.ru
+    mode: auto
+    path: /
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-concurrency: '0'
+      max-connections: '4'
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_2|1.8MB/s
+  network: xhttp
+  port: 443
+  server: 87.120.126.127
+  servername: mama147.baklajann.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
+  xhttp-opts:
+    host: mama147.baklajann.ru
+    mode: auto
+    path: /
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-concurrency: '0'
+      max-connections: '4'
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇵🇱 波兰 | POL #1'
+  network: xhttp
+  port: 443
+  server: 45.67.215.204
+  servername: 51.baklajann.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
+  xhttp-opts:
+    host: 51.baklajann.ru
+    mode: auto
+    path: /
+  xudp: true
 - name: FR_speednode_0007
   port: 6103
   server: 87.98.174.157
@@ -68,17 +143,3 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  name: '🇫🇷 法国 | FRA #2'
-  network: ws
-  port: 443
-  server: ipfast.kingmna.com
-  servername: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6b0a7f0-4a4e-47aa-975a-35988278ab85
-  ws-opts:
-    headers:
-      Host: fraboijji.global.ssl.fastly.net.
-    path: /
